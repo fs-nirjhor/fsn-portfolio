@@ -1,7 +1,9 @@
 # My Portfolio
 Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
 
-### Weblink: [Live Website](https://fsnirjhor.netlify.app)
+### Weblink: [Live Website](https://fsn-portfolio.netlify.app)
+
+### [![Netlify Status](https://api.netlify.com/api/v1/badges/cc0cc5b7-0968-4006-b8e9-c75954f54ccd/deploy-status)](https://app.netlify.com/sites/fsn-portfolio/deploys)
 
 ## Table of Contents
 - [Introduction](#introduction)
