@@ -328,14 +328,14 @@ export const projects = [
     category: "Fullstack Website",
     github: "https://github.com/fs-nirjhor/volunteer-network-fsn",
     webapp: "https://volunteer-network-fsn.netlify.app",
-    member: [
+    /* member: [
       {
         name: "FS Nirjhor",
         img: "https://avatars.githubusercontent.com/u/113302717?v=4",
         linkedin: "https://www.linkedin.com/in/fs-nirjhor",
         github: "https://github.com/fs-nirjhor",
       },
-    ],
+    ], */
   },
   {
     id: 1,
@@ -362,13 +362,65 @@ export const projects = [
     title: "Aihub",
     //date: "Jan 2023 - Mar 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "Its a Frontend Website about Ai. Its designed with bootstrap.",
     image:
       "https://imgur.com/Ti3rWtO.png",
     tags: ["HTML", "Bootstrap"],
     category: "Frontend Website",
     github: "https://github.com/fs-nirjhor/aihub-fsn",
     webapp: "https://aihub-fsn.netlify.app",
+  },
+  {
+    id: 2,
+    title: "FS Airline",
+    //date: "Jan 2023 - Mar 2023",
+    description:
+      "Its a Frontend Website about Airline. Its developed with famous CSS framework Tailwindcss and also using Postcss and Autoprefixer. Its build using Vite",
+    image:
+      "https://imgur.com/3aBTCRU.png",
+    tags: ["HTML", "Tailwindcss", "Postcss", "Vite", "Autoprefixer"],
+    category: "Frontend Website",
+    github: "https://github.com/fs-nirjhor/fs-airline",
+    webapp: "https://fs-airline.netlify.app",
+  },
+  {
+    id: 2,
+    title: "Travel With FSN",
+    //date: "Jan 2023 - Mar 2023",
+    description:
+      "Its a Frontend Website about Travel. Its developed with famous CSS framework Tailwindcss.",
+    image:
+      "https://imgur.com/XOGAoJl.png",
+    tags: ["HTML", "Tailwindcss"],
+    category: "Frontend Website",
+    github: "https://github.com/fs-nirjhor/travel-with-fsn",
+    webapp: "https://travel-with-fsn.netlify.app",
+  },
+  {
+    id: 2,
+    title: "Tic-Tac-Toe",
+    //date: "Jan 2023 - Mar 2023",
+    description:
+      "Its a single player Tic Tac Toe game.  Player can add his name and can play Tic Tac Toe with robot oppponent.",
+    image:
+      "https://imgur.com/BjiAGNX.png",
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "Other",
+    github: "https://github.com/fs-nirjhor/tic-tac-toe",
+    webapp: "https://tic-tac-toe-by-fsn.netlify.app",
+  },
+  {
+    id: 2,
+    title: "Tempareture",
+    //date: "Jan 2023 - Mar 2023",
+    description:
+      "Its a simple web app for showing Temparature by searching any place. Tempareture information is providing by a Rest API.",
+    image:
+      "https://imgur.com/jmXBykE.png",
+    tags: ["HTML", "Bootstrap", "Javascript", "Rest API"],
+    category: "Other",
+    github: "https://github.com/fs-nirjhor/tempareture-fsn",
+    webapp: "https://fs-nirjhor.github.io/tempareture-fsn",
   },
 ];
 

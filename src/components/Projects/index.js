@@ -33,10 +33,10 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="Frontend Website" onClick={() => setToggle('Frontend Website')}>Frontend Website's</ToggleButton>
           }
           <Divider />
-          {toggle === 'Tool' ?
-            <ToggleButton active value="Tool" onClick={() => setToggle('Tool')}>Tools</ToggleButton>
+          {toggle === 'Other' ?
+            <ToggleButton active value="Other" onClick={() => setToggle('Other')}>Others</ToggleButton>
             :
-            <ToggleButton value="Tool" onClick={() => setToggle('Tool')}>Tools</ToggleButton>
+            <ToggleButton value="Other" onClick={() => setToggle('Other')}>Others</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
