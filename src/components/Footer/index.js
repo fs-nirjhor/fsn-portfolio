@@ -3,6 +3,8 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import TelegramIcon from '@mui/icons-material/Telegram';
+import MailIcon from '@mui/icons-material/Mail';
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -101,6 +103,8 @@ function Footer() {
           <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.telegram} target="display"><TelegramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.mail} target="display"><MailIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2023 FS Nirjhor. All rights reserved.

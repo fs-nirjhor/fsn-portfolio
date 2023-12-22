@@ -21,22 +21,22 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+          {toggle === 'Fullstack Website' ?
+            <ToggleButton active value="Fullstack Website" onClick={() => setToggle('Fullstack Website')}>Fullstack Website's</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="Fullstack Website" onClick={() => setToggle('Fullstack Website')}>Fullstack Website's</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+          {toggle === 'Frontend Website' ?
+            <ToggleButton active value="Frontend Website" onClick={() => setToggle('Frontend Website')}>Frontend Website's</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton value="Frontend Website" onClick={() => setToggle('Frontend Website')}>Frontend Website's</ToggleButton>
           }
           <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+          {toggle === 'Tool' ?
+            <ToggleButton active value="Tool" onClick={() => setToggle('Tool')}>Tools</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+            <ToggleButton value="Tool" onClick={() => setToggle('Tool')}>Tools</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
