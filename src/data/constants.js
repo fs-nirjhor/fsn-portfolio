@@ -290,7 +290,7 @@ export const projects = [
   {
     id: 9,
     title: "Doctors Portal",
-    //date: "Jun 2023 - Jul 2023",
+    date: "Sep 2023",
     description:
       "Doctors Portal is a web application designed to booking doctors appointment. It provides a user-friendly interface for patients to book and manage their appointments and empowers doctors to log their appointments efficiently.",
     image:
@@ -311,7 +311,7 @@ export const projects = [
   {
     id: 0,
     title: "Volunteer Network",
-    // date: "Apr 2023 - May 2023",
+    date: "Apr 2023",
     description:
       "Developed a full-stack web application that allows users to search for, join, and manage their favorite volunteer work. Implemented user authentication using Firebase Auth and Jwt Auth, made responsive user interface with React JS that provides users with a seamless experience across all devices.",
     image:
@@ -340,9 +340,9 @@ export const projects = [
   {
     id: 1,
     title: "Red Onions Resturant",
-    //date: "Oct 2022 - Present",
+    date: "Feb 2023",
     description:
-      "Designed and developed the Red Onions Resturant, a resturant website. Implemented key features such as food menu by category, choose food item, login, select quantity and order food.Its only frontent application",
+      "I designed and developed the Red Onions Resturant, a resturant website. Implemented key features such as food menu by category, choose food item, login, select quantity and order food.Its only frontent application",
     image:
       "https://imgur.com/Y5tsbxr.png",
     tags: [
@@ -358,9 +358,53 @@ export const projects = [
     webapp: "https://red-onion-resturants-fsn.netlify.app",
   },
   {
+    id: 1,
+    title: "FSN Store",
+    date: "Mar 2023",
+    description:
+      "I designed and developed the FSN Store, a shop website. Implemented key features such as product by category, search product by name, choose product, user login, select quantity and order product. Its only frontent application",
+    image:
+      "https://imgur.com/9vNrrRr.png",
+    tags: [
+      "React Js",
+      "React-Redux",
+      "React-Router-Dom",
+      "React-Bootstrap",
+      "React-Firebase-Hooks",
+      "React-Hook-Form",
+      "Fontawesome",
+    ],
+    category: "Frontend Website",
+    github: "https://github.com/fs-nirjhor/fsn-store",
+    webapp: "https://fsn-store.web.app",
+  },
+  {
+    id: 1,
+    title: "Travel Guru",
+    date: "Mar 2023",
+    description:
+      "I designed and developed the Travel Guru, a travel agency website. Implemented key features such as showing place in slide, choose place, user login, select check in and check out date, hotel booking, hotel map. Its only frontent application",
+    image:
+      "https://imgur.com/2wfIwLx.png",
+    tags: [
+      "React Js",
+      "Redux",
+      "React-Router-Dom",
+      "Matarial UI",
+      "Firebase",
+      "React-Hook-Form",
+      "Dayjs",
+      "Leaflet",
+      "React-Google-Maps",
+    ],
+    category: "Frontend Website",
+    github: "https://github.com/fs-nirjhor/travel-guru-fsn",
+    webapp: "https://travel-guru-fsn.web.app",
+  },
+  {
     id: 2,
     title: "Aihub",
-    //date: "Jan 2023 - Mar 2023",
+    date: "Sep 2023",
     description:
       "Its a Frontend Website about Ai. Its designed with bootstrap.",
     image:
@@ -373,7 +417,7 @@ export const projects = [
   {
     id: 2,
     title: "FS Airline",
-    //date: "Jan 2023 - Mar 2023",
+    date: "Jul 2023",
     description:
       "Its a Frontend Website about Airline. Its developed with famous CSS framework Tailwindcss and also using Postcss and Autoprefixer. Its build using Vite",
     image:
@@ -386,7 +430,7 @@ export const projects = [
   {
     id: 2,
     title: "Travel With FSN",
-    //date: "Jan 2023 - Mar 2023",
+    date: "Jul 2023",
     description:
       "Its a Frontend Website about Travel. Its developed with famous CSS framework Tailwindcss.",
     image:
@@ -398,8 +442,21 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Calculator",
+    date: "Nov 2022",
+    description:
+      "Its a Calculator web app. User can use it for plus, minus, multiplication and division.",
+    image:
+      "https://imgur.com/rpPaayj.png",
+    tags: ["HTML", "CSS", "Javascript"],
+    category: "Other",
+    github: "https://github.com/fs-nirjhor/calculator",
+    webapp: "https://fs-nirjhor.github.io/calculator",
+  },
+  {
+    id: 2,
     title: "Tic-Tac-Toe",
-    //date: "Jan 2023 - Mar 2023",
+    date: "Aug 2023",
     description:
       "Its a single player Tic Tac Toe game.  Player can add his name and can play Tic Tac Toe with robot oppponent.",
     image:
@@ -412,7 +469,7 @@ export const projects = [
   {
     id: 2,
     title: "Tempareture",
-    //date: "Jan 2023 - Mar 2023",
+    date: "Sep 2023",
     description:
       "Its a simple web app for showing Temparature by searching any place. Tempareture information is providing by a Rest API.",
     image:
