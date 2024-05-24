@@ -315,6 +315,18 @@ export const projects = [
   },
   {
     id: 9,
+    title: "Creative Thoughts",
+    date: "Apr 2024",
+    description:
+      "Creative Thoughts is a blog platform. It provides a user-friendly interface for clients to read & write blog posts.",
+    image: "https://imgur.com/hWbWrze.png",
+    tags: ["Next Js", "Next Auth", "MongoDb", "Tailwindcss"],
+    category: "Fullstack Website",
+    github: "https://github.com/fs-nirjhor/creative-thoughts",
+    webapp: "https://creative-thoughts-fsn.vercel.app",
+  },
+  {
+    id: 9,
     title: "Doctors Portal",
     date: "Sep 2023",
     description:
