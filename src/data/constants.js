@@ -287,13 +287,13 @@ export const education = [
 ];
 
 export const projects = [
-  /*  {
+  {
     id: 9,
     title: "AFTAAI",
     date: "Feb 2024",
     description:
       "AFTAAI is a investment management platform. It provides a user-friendly interface for clients to manage their investments. It also provides real-time analysis of the market.",
-    image: "https://imgur.com/1axK4tI.png",
+    image: "https://imgur.com/R72A4no.png",
     tags: [
       "React Js",
       "MongoDb",
@@ -312,7 +312,7 @@ export const projects = [
     category: "Fullstack Website",
     github: "",
     webapp: "https://www.aftaai.com",
-  }, */
+  },
   {
     id: 9,
     title: "Doctors Portal",
